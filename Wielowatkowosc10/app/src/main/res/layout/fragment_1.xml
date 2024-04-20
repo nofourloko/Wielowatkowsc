@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/stoper_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Start interwal"/>
+
+        <Button
+            android:id="@+id/stoper_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset interwal"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/start_odliczanie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="Start odliczanie"/>
+
+        <Button
+            android:id="@+id/stop_odliczanie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset odliczanie"/>
+            <EditText
+                android:id="@+id/editTextOdliczanie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Wartosc"/>
+    </LinearLayout>
+
+</LinearLayout>
